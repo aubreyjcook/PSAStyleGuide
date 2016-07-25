@@ -1,0 +1,75 @@
+/* Fonts
+    Headers: font-family: 'Righteous', cursive;
+    Paragraphs: font-family: 'Prompt', sans-serif;
+*/
+/* Colors */
+* {
+  /* clears inherited padding/margin */
+  padding: 0px;
+  margin: 0px; }
+
+/* begin content general styling */
+body {
+  font-family: 'Prompt', sans-serif;
+  margin: 20px;
+  background-color: white; }
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  background-color: white;
+  border: 15px solid black;
+  border-radius: 5px;
+  padding: 10px; }
+
+/* end of content general styling */
+/* begin font general styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Righteous', cursive;
+  color: black; }
+
+p {
+  font-family: 'Prompt', sans-serif;
+  padding: 5px;
+  color: black; }
+
+/* end of font general styling */
+/* begin specific styling */
+.heading {
+  font-size: 1.5em;
+  padding: 2px 15px;
+  font-weight: 800; }
+
+.colors {
+  height: 100px;
+  width: 150px;
+  float: left;
+  border: 2px solid #003133;
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 1.25em;
+  text-align: center; }
+
+#color1 {
+  background: #00cc99; }
+
+#color2 {
+  background: #00001a; }
+
+#color3 {
+  background: #e6e6ff; }
+
+#color4 {
+  background: #1a1a00; }
+
+#fonts {
+  clear: both; }
+
+/* end of specific styling */
+
+/*# sourceMappingURL=style.css.map */
